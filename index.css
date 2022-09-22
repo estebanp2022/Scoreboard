@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+
+  margin: 20px 300px;
+  padding: 20px 10px 40px;
+  background-color: rgb(89, 180, 150);
+  border-radius: 20px;
+}
+
+.home,
+.guest {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+}
+
+span {
+  background-color: black;
+  margin: 5px 20px 40px;
+  padding: 50px;
+  color: brown;
+  font-size: 50px;
+}
+
+button {
+  background-color: rgb(38, 121, 132);
+  text-decoration: none;
+  color: aliceblue;
+}

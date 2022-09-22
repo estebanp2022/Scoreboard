@@ -4,6 +4,7 @@ let num2 = 0;
 document.getElementById("home-score").textContent = num1;
 document.getElementById("guest-score").textContent = num2;
 
+const resetBtn = document.getElementById("reset-btn");
 let homeScore = document.getElementById("home-score");
 let guestScore = document.getElementById("guest-score");
 let homeResult = 0;
@@ -37,3 +38,8 @@ function addThreeGuest() {
   guestResult = guestResult + 3;
   guestScore.textContent = guestResult;
 }
+
+resetBtn.addEventListener("click", function () {
+  homeScore.textContent = 0;
+  guestScore.textContent = 0;
+});

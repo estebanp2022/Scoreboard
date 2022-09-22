@@ -1,2 +1,5 @@
 # Scoreboard
- Scoreboard Practice Project
+
+Scoreboard Practice Project
+
+![](./screenshot.png)

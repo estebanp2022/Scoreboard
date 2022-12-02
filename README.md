@@ -1,6 +1,6 @@
 # Scoreboard
 
-Scoreboard Practice Project
+Score Keeper Practice Project - Simple functionality to keep the score of a two team game.
 
 ![](./screenshot.png)
 
